@@ -1,4 +1,6 @@
-﻿namespace AboutPC
+﻿using AboutPC;
+
+namespace AboutPC
 {
     partial class Form1
     {
@@ -28,214 +30,453 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.WinInfoTitle = new System.Windows.Forms.Label();
+            this.WinVerLab = new System.Windows.Forms.Label();
             this.WindowsVersion = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.Processor = new System.Windows.Forms.Label();
-            this.Videocard = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.UserName = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.WinEdLab = new System.Windows.Forms.Label();
+            this.WindowsEdition = new System.Windows.Forms.Label();
+            this.WinArchLab = new System.Windows.Forms.Label();
+            this.WindowsArch = new System.Windows.Forms.Label();
+            this.WindowsBuild = new System.Windows.Forms.Label();
+            this.WinBuildLab = new System.Windows.Forms.Label();
+            this.EnvironmentTitle = new System.Windows.Forms.Label();
+            this.UsrnmLab = new System.Windows.Forms.Label();
+            this.PCNLab = new System.Windows.Forms.Label();
+            this.Username = new System.Windows.Forms.Label();
             this.PCName = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.RAMCapacity = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.CPUs = new System.Windows.Forms.Label();
+            this.CPULab = new System.Windows.Forms.Label();
+            this.PCTitle = new System.Windows.Forms.Label();
+            this.GPUs = new System.Windows.Forms.Label();
+            this.GPULab = new System.Windows.Forms.Label();
+            this.RAMs = new System.Windows.Forms.Label();
+            this.RAMLab = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.LogoBox = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.logoBox = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
+            this.sdsdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.свернутьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.закрытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // WinInfoTitle
+            // 
+            this.WinInfoTitle.AutoSize = true;
+            this.WinInfoTitle.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WinInfoTitle.ForeColor = System.Drawing.Color.White;
+            this.WinInfoTitle.Location = new System.Drawing.Point(91, 36);
+            this.WinInfoTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.WinInfoTitle.Name = "WinInfoTitle";
+            this.WinInfoTitle.Size = new System.Drawing.Size(185, 22);
+            this.WinInfoTitle.TabIndex = 0;
+            this.WinInfoTitle.Text = "Информация Windows";
+            // 
+            // WinVerLab
+            // 
+            this.WinVerLab.AutoSize = true;
+            this.WinVerLab.ForeColor = System.Drawing.Color.White;
+            this.WinVerLab.Location = new System.Drawing.Point(13, 69);
+            this.WinVerLab.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.WinVerLab.Name = "WinVerLab";
+            this.WinVerLab.Size = new System.Drawing.Size(52, 18);
+            this.WinVerLab.TabIndex = 1;
+            this.WinVerLab.Text = "Версия:";
             // 
             // WindowsVersion
             // 
             this.WindowsVersion.AutoSize = true;
-            this.WindowsVersion.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.WindowsVersion.Location = new System.Drawing.Point(140, 37);
+            this.WindowsVersion.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WindowsVersion.ForeColor = System.Drawing.Color.White;
+            this.WindowsVersion.Location = new System.Drawing.Point(133, 69);
             this.WindowsVersion.Name = "WindowsVersion";
-            this.WindowsVersion.Size = new System.Drawing.Size(113, 13);
-            this.WindowsVersion.TabIndex = 1;
+            this.WindowsVersion.Size = new System.Drawing.Size(108, 18);
+            this.WindowsVersion.TabIndex = 2;
             this.WindowsVersion.Text = "$WindowsVersion$";
             // 
-            // label1
+            // WinEdLab
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(11, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "ОС:";
+            this.WinEdLab.AutoSize = true;
+            this.WinEdLab.ForeColor = System.Drawing.Color.White;
+            this.WinEdLab.Location = new System.Drawing.Point(13, 87);
+            this.WinEdLab.Name = "WinEdLab";
+            this.WinEdLab.Size = new System.Drawing.Size(59, 18);
+            this.WinEdLab.TabIndex = 3;
+            this.WinEdLab.Text = "Издание:";
             // 
-            // label2
+            // WindowsEdition
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(12, 136);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Процессор: ";
+            this.WindowsEdition.AutoSize = true;
+            this.WindowsEdition.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WindowsEdition.ForeColor = System.Drawing.Color.White;
+            this.WindowsEdition.Location = new System.Drawing.Point(133, 87);
+            this.WindowsEdition.Name = "WindowsEdition";
+            this.WindowsEdition.Size = new System.Drawing.Size(108, 18);
+            this.WindowsEdition.TabIndex = 4;
+            this.WindowsEdition.Text = "$WindowsEdition$";
             // 
-            // Processor
+            // WinArchLab
             // 
-            this.Processor.AutoSize = true;
-            this.Processor.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Processor.Location = new System.Drawing.Point(104, 135);
-            this.Processor.Name = "Processor";
-            this.Processor.Size = new System.Drawing.Size(83, 13);
-            this.Processor.TabIndex = 4;
-            this.Processor.Text = "$Proccessor$";
+            this.WinArchLab.AutoSize = true;
+            this.WinArchLab.ForeColor = System.Drawing.Color.White;
+            this.WinArchLab.Location = new System.Drawing.Point(13, 105);
+            this.WinArchLab.Name = "WinArchLab";
+            this.WinArchLab.Size = new System.Drawing.Size(81, 18);
+            this.WinArchLab.TabIndex = 5;
+            this.WinArchLab.Text = "Архитектура:";
             // 
-            // Videocard
+            // WindowsArch
             // 
-            this.Videocard.AutoSize = true;
-            this.Videocard.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Videocard.Location = new System.Drawing.Point(104, 160);
-            this.Videocard.Name = "Videocard";
-            this.Videocard.Size = new System.Drawing.Size(78, 13);
-            this.Videocard.TabIndex = 6;
-            this.Videocard.Text = "$Videocard$";
+            this.WindowsArch.AutoSize = true;
+            this.WindowsArch.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WindowsArch.ForeColor = System.Drawing.Color.White;
+            this.WindowsArch.Location = new System.Drawing.Point(133, 105);
+            this.WindowsArch.Name = "WindowsArch";
+            this.WindowsArch.Size = new System.Drawing.Size(95, 18);
+            this.WindowsArch.TabIndex = 6;
+            this.WindowsArch.Text = "$WindowsArch$";
             // 
-            // label4
+            // WindowsBuild
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(12, 160);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Видеокарта: ";
+            this.WindowsBuild.AutoSize = true;
+            this.WindowsBuild.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WindowsBuild.ForeColor = System.Drawing.Color.White;
+            this.WindowsBuild.Location = new System.Drawing.Point(133, 123);
+            this.WindowsBuild.Name = "WindowsBuild";
+            this.WindowsBuild.Size = new System.Drawing.Size(98, 18);
+            this.WindowsBuild.TabIndex = 9;
+            this.WindowsBuild.Text = "$WindowsBuild$";
             // 
-            // label5
+            // WinBuildLab
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(66, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 18);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Об ОС";
+            this.WinBuildLab.AutoSize = true;
+            this.WinBuildLab.ForeColor = System.Drawing.Color.White;
+            this.WinBuildLab.Location = new System.Drawing.Point(13, 123);
+            this.WinBuildLab.Name = "WinBuildLab";
+            this.WinBuildLab.Size = new System.Drawing.Size(40, 18);
+            this.WinBuildLab.TabIndex = 8;
+            this.WinBuildLab.Text = "Билд:";
             // 
-            // label6
+            // EnvironmentTitle
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(11, 60);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(123, 13);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Имя пользователя: ";
+            this.EnvironmentTitle.AutoSize = true;
+            this.EnvironmentTitle.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.EnvironmentTitle.ForeColor = System.Drawing.Color.White;
+            this.EnvironmentTitle.Location = new System.Drawing.Point(82, 176);
+            this.EnvironmentTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.EnvironmentTitle.Name = "EnvironmentTitle";
+            this.EnvironmentTitle.Size = new System.Drawing.Size(202, 22);
+            this.EnvironmentTitle.TabIndex = 10;
+            this.EnvironmentTitle.Text = "Информация окружения";
             // 
-            // UserName
+            // UsrnmLab
             // 
-            this.UserName.AutoSize = true;
-            this.UserName.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.UserName.Location = new System.Drawing.Point(140, 59);
-            this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(80, 13);
-            this.UserName.TabIndex = 8;
-            this.UserName.Text = "$UserName$";
+            this.UsrnmLab.AutoSize = true;
+            this.UsrnmLab.ForeColor = System.Drawing.Color.White;
+            this.UsrnmLab.Location = new System.Drawing.Point(13, 208);
+            this.UsrnmLab.Name = "UsrnmLab";
+            this.UsrnmLab.Size = new System.Drawing.Size(114, 18);
+            this.UsrnmLab.TabIndex = 11;
+            this.UsrnmLab.Text = "Имя пользователя:";
             // 
-            // label8
+            // PCNLab
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(11, 82);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(58, 13);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Имя ПК: ";
+            this.PCNLab.AutoSize = true;
+            this.PCNLab.ForeColor = System.Drawing.Color.White;
+            this.PCNLab.Location = new System.Drawing.Point(13, 226);
+            this.PCNLab.Name = "PCNLab";
+            this.PCNLab.Size = new System.Drawing.Size(106, 18);
+            this.PCNLab.TabIndex = 12;
+            this.PCNLab.Text = "Имя компьютера:";
+            // 
+            // Username
+            // 
+            this.Username.AutoSize = true;
+            this.Username.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Username.ForeColor = System.Drawing.Color.White;
+            this.Username.Location = new System.Drawing.Point(133, 208);
+            this.Username.Name = "Username";
+            this.Username.Size = new System.Drawing.Size(74, 18);
+            this.Username.TabIndex = 13;
+            this.Username.Text = "$Username$";
             // 
             // PCName
             // 
             this.PCName.AutoSize = true;
-            this.PCName.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PCName.Location = new System.Drawing.Point(140, 81);
+            this.PCName.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PCName.ForeColor = System.Drawing.Color.White;
+            this.PCName.Location = new System.Drawing.Point(133, 226);
             this.PCName.Name = "PCName";
-            this.PCName.Size = new System.Drawing.Size(70, 13);
-            this.PCName.TabIndex = 10;
+            this.PCName.Size = new System.Drawing.Size(65, 18);
+            this.PCName.TabIndex = 14;
             this.PCName.Text = "$PCName$";
             // 
-            // label10
+            // CPUs
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(47, 108);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(130, 18);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "Характеристики";
+            this.CPUs.AutoSize = true;
+            this.CPUs.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CPUs.ForeColor = System.Drawing.Color.White;
+            this.CPUs.Location = new System.Drawing.Point(133, 290);
+            this.CPUs.Name = "CPUs";
+            this.CPUs.Size = new System.Drawing.Size(42, 18);
+            this.CPUs.TabIndex = 19;
+            this.CPUs.Text = "$CPU$";
             // 
-            // RAMCapacity
+            // CPULab
             // 
-            this.RAMCapacity.AutoSize = true;
-            this.RAMCapacity.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RAMCapacity.Location = new System.Drawing.Point(104, 184);
-            this.RAMCapacity.Name = "RAMCapacity";
-            this.RAMCapacity.Size = new System.Drawing.Size(96, 13);
-            this.RAMCapacity.TabIndex = 14;
-            this.RAMCapacity.Text = "$RAMCapacity$";
+            this.CPULab.AutoSize = true;
+            this.CPULab.ForeColor = System.Drawing.Color.White;
+            this.CPULab.Location = new System.Drawing.Point(7, 290);
+            this.CPULab.Name = "CPULab";
+            this.CPULab.Size = new System.Drawing.Size(28, 18);
+            this.CPULab.TabIndex = 17;
+            this.CPULab.Text = "ЦП:";
             // 
-            // label11
+            // PCTitle
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(12, 185);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(40, 13);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "ОЗУ: ";
+            this.PCTitle.AutoSize = true;
+            this.PCTitle.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PCTitle.ForeColor = System.Drawing.Color.White;
+            this.PCTitle.Location = new System.Drawing.Point(71, 258);
+            this.PCTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.PCTitle.Name = "PCTitle";
+            this.PCTitle.Size = new System.Drawing.Size(213, 22);
+            this.PCTitle.TabIndex = 16;
+            this.PCTitle.Text = "Информация компьютера";
+            // 
+            // GPUs
+            // 
+            this.GPUs.AutoSize = true;
+            this.GPUs.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GPUs.ForeColor = System.Drawing.Color.White;
+            this.GPUs.Location = new System.Drawing.Point(133, 308);
+            this.GPUs.Name = "GPUs";
+            this.GPUs.Size = new System.Drawing.Size(43, 18);
+            this.GPUs.TabIndex = 21;
+            this.GPUs.Text = "$GPU$";
+            // 
+            // GPULab
+            // 
+            this.GPULab.AutoSize = true;
+            this.GPULab.ForeColor = System.Drawing.Color.White;
+            this.GPULab.Location = new System.Drawing.Point(7, 308);
+            this.GPULab.Name = "GPULab";
+            this.GPULab.Size = new System.Drawing.Size(26, 18);
+            this.GPULab.TabIndex = 20;
+            this.GPULab.Text = "ГП:";
+            // 
+            // RAMs
+            // 
+            this.RAMs.AutoSize = true;
+            this.RAMs.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RAMs.ForeColor = System.Drawing.Color.White;
+            this.RAMs.Location = new System.Drawing.Point(133, 326);
+            this.RAMs.Name = "RAMs";
+            this.RAMs.Size = new System.Drawing.Size(44, 18);
+            this.RAMs.TabIndex = 23;
+            this.RAMs.Text = "$RAM$";
+            // 
+            // RAMLab
+            // 
+            this.RAMLab.AutoSize = true;
+            this.RAMLab.ForeColor = System.Drawing.Color.White;
+            this.RAMLab.Location = new System.Drawing.Point(7, 326);
+            this.RAMLab.Name = "RAMLab";
+            this.RAMLab.Size = new System.Drawing.Size(33, 18);
+            this.RAMLab.TabIndex = 22;
+            this.RAMLab.Text = "ОЗУ:";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.panel1.Controls.Add(this.LogoBox);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(367, 27);
+            this.panel1.TabIndex = 24;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.contextMenuStrip1.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sdsdToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.свернутьToolStripMenuItem,
+            this.закрытьToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.оПрограммеToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.contextMenuStrip1.Size = new System.Drawing.Size(225, 126);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(221, 6);
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.DefaultExt = "*.txt";
+            this.saveFileDialog1.FileName = "sys-info";
+            this.saveFileDialog1.Filter = "Текстовой документ|*.txt|Все файлы|*.*";
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
+            // 
+            // LogoBox
+            // 
+            this.LogoBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LogoBox.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LogoBox.Location = new System.Drawing.Point(27, 0);
+            this.LogoBox.Name = "LogoBox";
+            this.LogoBox.Size = new System.Drawing.Size(27, 27);
+            this.LogoBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.LogoBox.TabIndex = 7;
+            this.LogoBox.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.ContextMenuStrip = this.contextMenuStrip1;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(27, 27);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(313, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(27, 27);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.BackgroundImage = global::AboutPC.Properties.Resources.Settings_16x;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Location = new System.Drawing.Point(665, 269);
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(340, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(24, 24);
-            this.button1.TabIndex = 15;
+            this.button1.Size = new System.Drawing.Size(27, 27);
+            this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // logoBox
+            // sdsdToolStripMenuItem
             // 
-            this.logoBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.logoBox.Location = new System.Drawing.Point(538, 12);
-            this.logoBox.Name = "logoBox";
-            this.logoBox.Size = new System.Drawing.Size(151, 137);
-            this.logoBox.TabIndex = 0;
-            this.logoBox.TabStop = false;
+            this.sdsdToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.sdsdToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sdsdToolStripMenuItem.Image")));
+            this.sdsdToolStripMenuItem.Name = "sdsdToolStripMenuItem";
+            this.sdsdToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.sdsdToolStripMenuItem.Text = "Сохранить информацию...";
+            this.sdsdToolStripMenuItem.Click += new System.EventHandler(this.sdsdToolStripMenuItem_Click);
+            // 
+            // свернутьToolStripMenuItem
+            // 
+            this.свернутьToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.свернутьToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("свернутьToolStripMenuItem.Image")));
+            this.свернутьToolStripMenuItem.Name = "свернутьToolStripMenuItem";
+            this.свернутьToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.свернутьToolStripMenuItem.Text = "Свернуть";
+            this.свернутьToolStripMenuItem.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // закрытьToolStripMenuItem
+            // 
+            this.закрытьToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.закрытьToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("закрытьToolStripMenuItem.Image")));
+            this.закрытьToolStripMenuItem.Name = "закрытьToolStripMenuItem";
+            this.закрытьToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.закрытьToolStripMenuItem.Text = "Закрыть";
+            this.закрытьToolStripMenuItem.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // оПрограммеToolStripMenuItem
+            // 
+            this.оПрограммеToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.оПрограммеToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("оПрограммеToolStripMenuItem.Image")));
+            this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
+            this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.оПрограммеToolStripMenuItem.Text = "О программе";
+            this.оПрограммеToolStripMenuItem.Click += new System.EventHandler(this.оПрограммеToolStripMenuItem_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 305);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.RAMCapacity);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label8);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.ClientSize = new System.Drawing.Size(367, 361);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.RAMs);
+            this.Controls.Add(this.RAMLab);
+            this.Controls.Add(this.GPUs);
+            this.Controls.Add(this.GPULab);
+            this.Controls.Add(this.CPUs);
+            this.Controls.Add(this.CPULab);
+            this.Controls.Add(this.PCTitle);
             this.Controls.Add(this.PCName);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.UserName);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.Videocard);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.Processor);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Username);
+            this.Controls.Add(this.PCNLab);
+            this.Controls.Add(this.UsrnmLab);
+            this.Controls.Add(this.EnvironmentTitle);
+            this.Controls.Add(this.WindowsBuild);
+            this.Controls.Add(this.WinBuildLab);
+            this.Controls.Add(this.WindowsArch);
+            this.Controls.Add(this.WinArchLab);
+            this.Controls.Add(this.WindowsEdition);
+            this.Controls.Add(this.WinEdLab);
             this.Controls.Add(this.WindowsVersion);
-            this.Controls.Add(this.logoBox);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Controls.Add(this.WinVerLab);
+            this.Controls.Add(this.WinInfoTitle);
+            this.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Об моём компьютере";
+            this.Text = "О компьютере";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.logoBox)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.contextMenuStrip1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,22 +484,40 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox logoBox;
+        private System.Windows.Forms.Label WinInfoTitle;
+        private System.Windows.Forms.Label WinVerLab;
         private System.Windows.Forms.Label WindowsVersion;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label Processor;
-        private System.Windows.Forms.Label Videocard;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label UserName;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label WinEdLab;
+        private System.Windows.Forms.Label WindowsEdition;
+        private System.Windows.Forms.Label WinArchLab;
+        private System.Windows.Forms.Label WindowsArch;
+        private System.Windows.Forms.PictureBox LogoBox;
+        private System.Windows.Forms.Label WindowsBuild;
+        private System.Windows.Forms.Label WinBuildLab;
+        private System.Windows.Forms.Label EnvironmentTitle;
+        private System.Windows.Forms.Label UsrnmLab;
+        private System.Windows.Forms.Label PCNLab;
+        private System.Windows.Forms.Label Username;
         private System.Windows.Forms.Label PCName;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label RAMCapacity;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label CPUs;
+        private System.Windows.Forms.Label CPULab;
+        private System.Windows.Forms.Label PCTitle;
+        private System.Windows.Forms.Label GPUs;
+        private System.Windows.Forms.Label GPULab;
+        private System.Windows.Forms.Label RAMs;
+        private System.Windows.Forms.Label RAMLab;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem sdsdToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem свернутьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem закрытьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem оПрограммеToolStripMenuItem;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 

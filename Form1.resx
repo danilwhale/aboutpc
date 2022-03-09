@@ -117,7 +117,71 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="sdsdToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAHNJREFUOE/dj7EJwDAMBDNIptES7j2UpssIhiSNWsdvECiKC6sIhBiu0PN/4EVE
+        UqM0ahBsEgQl51yJKAQ22EIwLMyA7U1w7OcUfxZE+ahg9GeL7b4r8LfPgQo2Zn4M/O1zoILVSnzRjm0O
+        ugBPJQhiSL0AQfLXu0Y1QlkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="свернутьToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAChJREFUOE9jGAWjYPCAb9++/ScHQ7VDDHByciIJD0IDyMFQ7ZQABgYAtFfDl21J
+        JawAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="закрытьToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAKhJREFUOE+tkzESwyAMBHmS38A3eEEoqP1SOhoeQavoHGlCjGDsJDejMdxpr8Ku
+        V2ttk+NU0x0Odh7ieYg1CJns7GK9BKOUQiklqrWaJfCQxRgp5/wu4cPGc8DeewohDCUKI8MOSsCANRf6
+        klV2wKrZ4iVYZZVchlXnklsw9FPBGca3Py9LLBh3yxtKZjD8VabwXx7S909ZBYPHhFXIZOcTVnFw83d2
+        7gn7LLYiNxZ+bAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="оПрограммеToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAEtJREFUOE/tzzEKADAIA8C+zf+/xzUlBUEkQ0sLLh1uSTDgAHBFhidkSO6OrPZB
+        hsQjM1v6BrLaBxkSj/pf+AMPBrLaBxmekOE+jAnM8QH2NaOmTgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAYxJREFUOE+NkktLAlEYhudv+C+CoEVQi5ZtWrWIKDJjKgrRvEWZ2mB5y3EUKrtQ
+        kauCIoQutLJNEd0QxbBMol2/4qv31AxnOlodeDlnvjPv8533zEjFcoX+0tNLnSKRKFksLWyuVGusLmFc
+        3txTa2c79fT1NlT/yBDFVY1kWWYAaEAeJvhQNwD2I4egqbyLAmchZi68vTOzN+Sl3dstEaBoSQouxcgf
+        XaSxahdN+lw07nZSSvvqrgNQS2+mRUBIjTPz3ILCABDWvNnt8bBI4Yvw7xEYYMNOqZ2YCYCardpBWkkV
+        AV4laMj+3N2w++BjG1knRim9rIkAdIUZs3PGJ2R3zE6zPURQtVSDCFGfkRuCie+OU+HzNQd8ZrcWbDR/
+        rhBuWTdi9p8G2J5+R+tXqyIAR4SURMRkxozc6KwrmUmIgOz2GuX2cux4PABxcGmo8zIB9H++Vn81mfn/
+        ntdDqWwG6MLLPADP13dFY/+nGAADC2j/4JAZofzxCWVWsqzeTHiHAfgB8/fyH0OSPgApdW4n4VsUPwAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAC0AAAAdCAYAAAA+YOU3AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAACNJREFUWEftyqEBAAAIA6D9/7QWmwYPgEwAAOBWT9MBAGBJGvYFJ9mdk0yPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAC0AAAAdCAYAAAA+YOU3AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAFZJREFUWEft0jsKACAMBNHc/9J+IAELFSvZhXlVhBRDMAAAkNSGHI9edr67RUkG
+        l12cdHBZIy2Cy4yd8ukhm72unKPH99hFSoff4iTDX6IkwwEAMBbRAQUDT7GOBWNLAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>172, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAkAMDAAAAEACACoDgAAlgAAACAgAAABAAgAqAgAAD4PAAAYGAAAAQAIAMgGAADmFwAAEBAAAAEA
