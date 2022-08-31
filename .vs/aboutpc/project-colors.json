@@ -1,5 +1,11 @@
 {
   "Version": 1,
-  "ProjectMap": {},
-  "NextColorIndex": 0
+  "ProjectMap": {
+    "ef3e81fa-8bf5-4e35-aaa6-6fbec10dc37e": {
+      "ProjectGuid": "ef3e81fa-8bf5-4e35-aaa6-6fbec10dc37e",
+      "DisplayName": "AboutPC",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
 }
